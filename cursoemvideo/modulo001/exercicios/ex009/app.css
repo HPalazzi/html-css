@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    font-family: Arial;
+    font-size: 20px;
+}
+h1 {
+    color: blueviolet;
+    background-color: lightseagreen;
+}
+h2 {
+    color: red;
+}
+p {
+    text-align: justify;
+    font-size: small;
+}

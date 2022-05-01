@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    font: normal 1em Arial, verdana, serif;
+    background-image: linear-gradient(to right, #044040 80%, #591C21);
+}
+main{
+    background-color: white;
+    border-radius: 3%; 
+    box-shadow: 5px 5px 15px #a04b4e;
+    width: 55%;
+    padding: 5%;
+    margin: auto;
+    margin-top: auto;
+}
+#Titulo_Principal{
+    font: bolder 3em Arial, verdana, serif;
+    text-align: center;
+    background-color: #D92525;
+}
+.Sub_titulo{
+    font: bolder 1.5em Arial, verdana, serif;
+    text-align: left;
+    color: #8C1F28;
+}
+.texto{
+    font: normal 1em Arial, verdana, serif;
+    text-align: justify;
+    text-indent: 4em;
+}

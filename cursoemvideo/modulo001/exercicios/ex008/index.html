@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Responsividade</h1>
+    <p>Tente se aproximar</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/RespP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/RespM.png" type="image/png">
+        <img src="imagens/RespG.png" alt="Imagem Responsiva">
+    </picture>
+
+    <h1>Audios</h1>
+    <p>Resproduzindo audios em HTML5</p>
+    <!--<audio src="midia/midiaexemplo.mp3" controls autoplay></audio> MP3 MAV E OGG-->
+    <audio preload="metadata" autoplay controls loop > <!--As diferenças dos tipos de preload são expressivas, pois com  o auto, que é o padrao, seu site só sera carregado, após todos os arquivos seram carregados, e isso, dependendo do nivel do seu site ou do peso de suas midias acaba voltando para a velha historia do usuario que desiste de ver seu conteudo devido a demora no  carregamento!-->
+        <source src="midia/midiaexemplo.mp3" type="audio/mpeg">
+        <p>Caso tu esteja vendo esta mensagem seu navegador não é compativel com o formato do audio!</p>
+        <p>Clique <a href="midia/midiaexemplo.mp3">aqui</a> para baixar o arquivo!</p>
+    </audio>
+
+    <h1>Videos</h1>
+    <p>Reproduzindo videos com hospedagem e servidor local</p>
+    <h2>Local</h2>
+    <video controls autoplay width="560" height="315" poster="imagens/tubnail.jpg">
+        <source src="midia/midiaexemplo3.mp4" type="video/mp4">
+        <source src="midia/midiaexemplo4.webm" type="video/webm">
+        <p>Caso tu esteja vendo esta mensagem seu navegador não é compativel com o formato do Video!</p>
+        <p>Clique <a href="midia/midiaexemplo3.mp4">aqui</a> para baixar o arquivo!</p>
+
+    </video>
+
+    <h2>Externo</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nijuxYwvyco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
