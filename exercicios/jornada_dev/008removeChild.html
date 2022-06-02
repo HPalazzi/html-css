@@ -7,7 +7,7 @@
     <title>DOM | removeChild</title>
 </head>
 <!--
-
+    Basicamente é o oposto do appendChild, sendo sua função remover uma classe filho de uma tag
 -->
     <div id="nissan">
 
@@ -17,6 +17,7 @@
 
 
     <script>
+        /* Itens da aula passada */
 
         var versa = document.createElement("p");
         versa.innerHTML = "versa";
@@ -26,10 +27,10 @@
 
         document.getElementById("nissan").appendChild(versa);
         document.getElementById("nissan").appendChild(centra);
+        
+        document.getElementById("nissan").removeChild(versa);
+        
         console.log(
-            /*
-            
-            */
 
         )
     </script>
